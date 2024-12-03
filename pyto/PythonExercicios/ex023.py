@@ -1,0 +1,6 @@
+num = (input('Digite um numero de 0 a 9999: '))
+print('Seu numero tem: ')
+print('{} unidades'.format(num[0]))
+print('{} dezenas'.format(num[1]))
+print('{} centenas'.format(num[2]))
+print('{} milhar'.format(num[3]))
